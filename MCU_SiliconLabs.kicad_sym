@@ -8886,7 +8886,7 @@
 						)
 					)
 				)
-				(alternate "SWCLK" bidirectional line)
+				(alternate "SWCLK" input line)
 			)
 			(pin bidirectional line
 				(at -22.86 10.16 0)
