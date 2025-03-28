@@ -8924,6 +8924,7 @@
 						)
 					)
 				)
+				(alternate "TDO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -22.86 5.08 0)
@@ -8942,7 +8943,7 @@
 						)
 					)
 				)
-				(alternate "TCLK" bidirectional line)
+				(alternate "TDI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -22.86 2.54 0)
@@ -8961,7 +8962,6 @@
 						)
 					)
 				)
-				(alternate "TD1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -22.86 0 0)
