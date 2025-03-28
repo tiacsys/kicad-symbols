@@ -9000,6 +9000,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at -22.86 -5.08 0)
+				(length 2.54)
+				(name "PA08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -22.86 -10.16 0)
 				(length 2.54)
 				(name "PD00"
