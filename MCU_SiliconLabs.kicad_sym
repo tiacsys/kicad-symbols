@@ -9914,6 +9914,7 @@
 					)
 				)
 				(alternate "LFXTAL_I" input line)
+				(alternate "LF_EXTCLK" input line)
 			)
 			(pin bidirectional line
 				(at -22.86 -15.24 0)
