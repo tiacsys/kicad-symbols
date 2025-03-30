@@ -8914,7 +8914,7 @@
 						)
 					)
 				)
-				(alternate "TDO" bidirectional line)
+				(alternate "TDO" output line)
 			)
 			(pin bidirectional line
 				(at -22.86 10.16 0)
@@ -8933,7 +8933,7 @@
 						)
 					)
 				)
-				(alternate "TDI" bidirectional line)
+				(alternate "TDI" input line)
 			)
 			(pin bidirectional line
 				(at -22.86 7.62 0)
@@ -9748,7 +9748,7 @@
 						)
 					)
 				)
-				(alternate "TDO" bidirectional line)
+				(alternate "TDO" output line)
 			)
 			(pin bidirectional line
 				(at -22.86 10.16 0)
@@ -9767,7 +9767,7 @@
 						)
 					)
 				)
-				(alternate "TDO" bidirectional line)
+				(alternate "TDI" output line)
 			)
 			(pin bidirectional line
 				(at -22.86 7.62 0)
