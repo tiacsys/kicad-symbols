@@ -13364,7 +13364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
+		(property "Footprint" "RF_Module:ESP32-S3-MINI-1"
 			(at 15.24 -29.21 0)
 			(effects
 				(font
@@ -33848,7 +33848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S2-MINI-1U"
+		(property "Footprint" "RF_Module:ESP32-S3-MINI-1U"
 			(at 16.51 -29.21 0)
 			(effects
 				(font
