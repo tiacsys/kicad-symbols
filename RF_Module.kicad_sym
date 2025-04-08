@@ -33884,7 +33884,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "ESP32?S*MINI?1U"
+		(property "ki_fp_filters" "ESP32?S3*MINI?1U"
 			(at 0 0 0)
 			(effects
 				(font
