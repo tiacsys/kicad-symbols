@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(symbol "10M04SCE144"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -20.574 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +20,8 @@
 		)
 		(property "Value" "10M04SCE144"
 			(at 22.352 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,43 +30,52 @@
 		)
 		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm"
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.intel.com/programmable/technical-pdfs/max10-handbook.pdf"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Intel/Altera MAX 10 FPGA, single supply / compact features, 4000LE, LQFP-144 (Intel EQFP-144)"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property private "KLC_S3.1" "Units will not be centered on origin due outline heigth (50 mil based, 'BANK' names need this othewise they will clash with pins)"
 			(at 0 -7.62 0)
-			(show_name)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,20 +84,24 @@
 		)
 		(property "ki_keywords" "MAX10 PLD FPGA DSP 12-bit-ADC Flash"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "*QFP*20x20mm?P0.5mm?EP5x5mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "10M04SCE144_1_1"
@@ -2113,6 +2132,96 @@
 				)
 			)
 			(pin power_in line
+				(at 12.7 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -15.24 180)
+				(length 3.81)
+				(name "VCCA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 5.08 180)
+				(length 3.81)
+				(name "VCCA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -25.4 22.86 0)
 				(length 3.81)
 				(name "VCCIO1A"
@@ -2167,6 +2276,78 @@
 				)
 			)
 			(pin power_in line
+				(at 25.4 10.16 180)
+				(length 3.81)
+				(name "VCCA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 15.24 180)
+				(length 3.81)
+				(name "VCCA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -25.4 7.62 0)
 				(length 3.81)
 				(name "VCCIO3"
@@ -2177,6 +2358,24 @@
 					)
 				)
 				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2203,6 +2402,60 @@
 				)
 			)
 			(pin power_in line
+				(at 5.08 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -25.4 0 0)
 				(length 3.81)
 				(name "VCCIO4"
@@ -2213,6 +2466,78 @@
 					)
 				)
 				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -10.16 180)
+				(length 3.81)
+				(name "VCCA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 35.56 270)
+				(length 3.81)
+				(name "VCC_ONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2239,6 +2564,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -25.4 -7.62 0)
 				(length 3.81)
 				(name "VCCIO6"
@@ -2249,6 +2592,24 @@
 					)
 				)
 				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -35.56 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2275,61 +2636,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -15.24 0)
-				(length 3.81)
-				(name "VCCIO7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 -20.32 0)
-				(length 3.81)
-				(name "VCCIO8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "128"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 -22.86 0)
-				(length 3.81)
-				(name "VCCIO8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "139"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 -35.56 90)
+				(at -5.08 -35.56 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2338,7 +2645,7 @@
 						)
 					)
 				)
-				(number "142"
+				(number "104"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2347,34 +2654,16 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -35.56 90)
+				(at 25.4 0 180)
 				(length 3.81)
-				(name "GND"
+				(name "VCCA3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "137"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "133"
+				(number "107"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2383,7 +2672,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 35.56 270)
+				(at -2.54 35.56 270)
 				(length 3.81)
 				(name "VCC_ONE"
 					(effects
@@ -2392,7 +2681,7 @@
 						)
 					)
 				)
-				(number "144"
+				(number "108"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2401,16 +2690,16 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -35.56 90)
+				(at -5.08 35.56 270)
 				(length 3.81)
-				(name "GND"
+				(name "VCC_ONE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "125"
+				(number "109"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2455,16 +2744,16 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 35.56 270)
+				(at -25.4 -15.24 0)
 				(length 3.81)
-				(name "VCC_ONE"
+				(name "VCCIO7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "109"
+				(number "117"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2473,7 +2762,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -35.56 90)
+				(at -10.16 -35.56 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2482,7 +2771,7 @@
 						)
 					)
 				)
-				(number "104"
+				(number "125"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2491,34 +2780,16 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 35.56 270)
+				(at -25.4 -20.32 0)
 				(length 3.81)
-				(name "VCC_ONE"
+				(name "VCCIO8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "108"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "95"
+				(number "128"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2527,25 +2798,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 35.56 270)
-				(length 3.81)
-				(name "VCC_ONE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "73"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -35.56 90)
+				(at -12.7 -35.56 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2554,7 +2807,7 @@
 						)
 					)
 				)
-				(number "83"
+				(number "133"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2563,25 +2816,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 35.56 270)
-				(length 3.81)
-				(name "VCC_ONE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "72"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -35.56 90)
+				(at -15.24 -35.56 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2590,7 +2825,7 @@
 						)
 					)
 				)
-				(number "68"
+				(number "137"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2599,34 +2834,16 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 35.56 270)
+				(at -25.4 -22.86 0)
 				(length 3.81)
-				(name "VCC_ONE"
+				(name "VCCIO8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "63"
+				(number "139"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2635,25 +2852,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 35.56 270)
-				(length 3.81)
-				(name "VCC_ONE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -35.56 90)
+				(at -17.78 -35.56 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2662,187 +2861,7 @@
 						)
 					)
 				)
-				(number "53"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 35.56 270)
-				(length 3.81)
-				(name "VCC_ONE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 35.56 270)
-				(length 3.81)
-				(name "VCC_ONE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -35.56 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -35.56 90)
-				(length 3.81)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "145"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 15.24 180)
-				(length 3.81)
-				(name "VCCA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 10.16 180)
-				(length 3.81)
-				(name "VCCA2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 5.08 180)
-				(length 3.81)
-				(name "VCCA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 0 180)
-				(length 3.81)
-				(name "VCCA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "107"
+				(number "142"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2869,16 +2888,16 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -10.16 180)
+				(at -10.16 35.56 270)
 				(length 3.81)
-				(name "VCCA5"
+				(name "VCC_ONE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "71"
+				(number "144"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2887,16 +2906,16 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -15.24 180)
+				(at 17.78 -35.56 90)
 				(length 3.81)
-				(name "VCCA6"
+				(name "EPAD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "145"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2906,69 +2925,5 @@
 			)
 		)
 		(embedded_fonts no)
-	)
-	(symbol "10M08SCE144"
-		(extends "10M04SCE144")
-		(property "Reference" "U"
-			(at -20.574 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10M08SCE144"
-			(at 22.352 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.intel.com/programmable/technical-pdfs/max10-handbook.pdf"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Intel/Altera MAX 10 FPGA, single supply / compact features, 8000LE, LQFP-144 (Intel EQFP-144)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "MAX10 PLD FPGA DSP 12-bit-ADC Flash"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*QFP*20x20mm?P0.5mm?EP5x5mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 )
