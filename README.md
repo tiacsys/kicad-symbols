@@ -2,9 +2,9 @@
 
 This repository contains the official KiCad schematic symbol libraries.
 
-**The libraries in this repository are intended for KiCad version 9.x**
+**The libraries in this repository are intended for KiCad version 10.x**
 
-Each symbol library is stored as a `.kicad_sym` file.
+Each symbol library is stored *unpacked* as a `.kicad_symdir` folder.
 
 Contribution guidelines can be found at http://kicad.org/libraries/contribute
 The library convention can be found at http://kicad.org/libraries/klc/
