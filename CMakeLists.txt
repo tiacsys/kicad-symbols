@@ -27,7 +27,7 @@ endif()
 mark_as_advanced( KICAD_DATA KICAD_LIBRARY )
 
 
-option(KICAD_PACK_SYM_LIBRARIES "Pack symbol libraries before installation" ON)
+option(KICAD_PACK_SYM_LIBRARIES "Pack symbol libraries before installation" OFF)
 
 
 #================================================
