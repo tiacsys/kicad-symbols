@@ -32,7 +32,7 @@ performance.
 
 To pack the libraries, you will need to have CMake and `kicad-cli` installed.
 
-To disable packing of the libraries, set the CMake option `KICAD_SYMBOLS_PACK_LIBRARIES` to
+To disable packing of the libraries, set the CMake option `KICAD_PACK_SYM_LIBRARIES` to
 `OFF` when configuring the build.
 
 ## Building libraries
@@ -42,7 +42,7 @@ From the root of this repository, create a build directory and run CMake:
 ```bash
 mkdir build
 cd build
-cmake .. -D KICAD_SYMBOLS_PACK_LIBRARIES=<ON|OFF>
+cmake .. -D KICAD_PACK_SYM_LIBRARIES=<ON|OFF>
 ```
 
 Then build the libraries with:

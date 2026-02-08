@@ -92,11 +92,17 @@ endfunction()
 
 # Install all of the symbol library (.kicad_sym) and simulation model (.sp)
 # files in this folder.
-file( GLOB sym_lib_files "*.kicad_symdir" )
+
+file( GLOB sym_lib_dirs "*.kicad_symdir" )
+file( GLOB sym_lib_files "*.kicad_sym" )
 file( GLOB sym_sim_files "*.sp" )
 
 if( KICAD_PACK_SYM_LIBRARIES )
     message( STATUS "Packing libraries before installation")
+
+    if( NOT sym_lib_dirs )
+        message( FATAL_ERROR "No unpacked symbol library directories found. Cannot pack symbol libraries." )
+    endif()
 
     set( packed_lib_dir "${CMAKE_CURRENT_BINARY_DIR}/packed" )
 
@@ -107,7 +113,7 @@ if( KICAD_PACK_SYM_LIBRARIES )
 
     # Pack all symbol libraries before installation.
     set( packed_sym_lib_files "" )
-    pack_all_libraries( "${sym_lib_files}" "${packed_lib_dir}" packed_sym_lib_files )
+    pack_all_libraries( "${sym_lib_dirs}" "${packed_lib_dir}" packed_sym_lib_files )
 
     # The pack target depends on all packed libraries.
     add_custom_target( pack_symbols
@@ -124,16 +130,34 @@ if( KICAD_PACK_SYM_LIBRARIES )
     add_dependencies(pack_symbols make_packed_dir)
 
     set( installed_sym_lib_files ${packed_sym_lib_files} )
+    set( installed_sym_lib_dirs "" )
 else()
     message( STATUS "Not packing libraries before installation" )
-    set( installed_sym_lib_files ${sym_lib_files} )
+
+    if( sym_lib_dirs )
+        # If we have library directories, we install as directories.
+        set( installed_sym_lib_files "" )
+        set( installed_sym_lib_dirs ${sym_lib_dirs} )
+    else()
+        # If we don't have library directories, we install individual files as libraries
+        set( installed_sym_lib_files ${sym_lib_files} )
+        set( installed_sym_lib_dirs "" )
+    endif()
 endif()
 
 #================================================
 # Installed files.
 #================================================
 
+# Install symbol libraries as files and/or directories
+
 install(
+    DIRECTORY ${installed_sym_lib_dirs}
+    DESTINATION ${KICAD_LIBRARY}
+    COMPONENT resources
+)
+
+install (
     FILES
         ${installed_sym_lib_files}
         ${sym_sim_files}
