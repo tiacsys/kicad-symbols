@@ -51,15 +51,7 @@ X4 in4+ in4- vcc vee out4 kicad_builtin_opamp POLE={POLE} GAIN={GAIN} VOFF={VOFF
 * Dual Potentiometer model
 * Symbol pins 1 2 3 4 5 6
 .subckt pot_dual r1A wA r0A r1B wB r0B params: Rtot=1k wpos=0.4
-Apot r0A wA r1A potmod
-Apot r0B wB r1B potmod
-.model potmod potentiometer(position={wpos} r={Rtot})
-.ends
-
-* Dual Potentiometer model
-* Symbol pins 1 2 3 4 5 6
-.subckt pot_dual r1A wA r0A r1B wB r0B params: Rtot=1k wpos=0.4
-Apot r0A wA r1A potmod
-Apot r0B wB r1B potmod
+Apot1 r0A wA r1A potmod
+Apot2 r0B wB r1B potmod
 .model potmod potentiometer(position={wpos} r={Rtot})
 .ends
