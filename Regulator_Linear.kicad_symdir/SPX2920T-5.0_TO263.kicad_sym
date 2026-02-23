@@ -1,7 +1,7 @@
 (kicad_symbol_lib
 	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.99")
+	(generator_version "10.0")
 	(symbol "SPX2920T-5.0_TO263"
 		(extends "SPX2920T-3.3_TO263")
 		(property "Reference" "U"
