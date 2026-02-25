@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRL0006A"
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-N6_DRL-6"
 			(at -20.32 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,7 +72,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Texas*DRL0006A*"
+		(property "ki_fp_filters" "Texas*R?PDSO?N6?DRL?6*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
