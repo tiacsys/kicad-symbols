@@ -3,9 +3,6 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "74LS242"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS242"
+		(property "Datasheet" "https://unicornelectronics.com/ftp/Data%20Sheets/74ls242-243.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64,16 +61,6 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "bus 3state"
 			(at 0 0 0)
 			(show_name no)
@@ -85,7 +72,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "DIP?12*"
+		(property "ki_fp_filters" "DIP?14* SOIC?14*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108,6 +95,25 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -270,6 +276,25 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
