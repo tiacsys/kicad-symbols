@@ -154,14 +154,6 @@
 					(type background)
 				)
 			)
-			(text "&"
-				(at -2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
 		)
 		(symbol "4044_1_0"
 			(pin output line
@@ -431,6 +423,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "4044_1_1"
+			(text "S"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "R"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
