@@ -35,7 +35,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

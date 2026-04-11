@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "xilinx/xc400x-pinout.pdf"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Xilinx%20PDFs/XC4000%20Series%20Arrays.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

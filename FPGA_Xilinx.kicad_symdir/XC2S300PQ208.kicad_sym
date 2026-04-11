@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "xilinx/spartan2e/spartan2e.pdf"
+		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds077"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

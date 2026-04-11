@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

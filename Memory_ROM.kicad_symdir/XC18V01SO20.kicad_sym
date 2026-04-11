@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "xilinx/xc18v00proms.pdf"
+		(property "Datasheet" "https://docs.amd.com/api/khub/documents/6MAHUFe3JhpT1bdCspA7mQ/content"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

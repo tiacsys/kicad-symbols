@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "74xx/74F181.pdf"
+		(property "Datasheet" "https://datasheets.chipdb.org/Fairchild/74F181PC.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

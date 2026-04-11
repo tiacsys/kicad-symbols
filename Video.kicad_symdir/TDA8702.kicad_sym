@@ -45,7 +45,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "philips/tda8702.pdf"
+		(property "Datasheet" "https://pdf.datasheet.live/0463ecba/semiconductors.philips.com/TDA8702T_C2.pdf"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)

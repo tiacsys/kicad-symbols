@@ -44,7 +44,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "video\\cxd3400n.pdf"
+		(property "Datasheet" "https://www.bndhep.net/Electronics/Data/CXD3400N.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
