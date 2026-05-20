@@ -38,7 +38,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max15062.pdf"
 			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49,7 +49,7 @@
 				)
 			)
 		)
-		(property "Description" "60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage, DFN-8"
+		(property "Description" "60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage, DFN-8 / WSON-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60,7 +60,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "step-down dc-dc switching regulator"
+		(property "ki_keywords" "Analog-Devices Buck-Converter MAX15062CATA+"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71,7 +71,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "DFN*2x2mm*P0.5mm*"
+		(property "ki_fp_filters" "*DFN*2x2mm?P0.5mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
