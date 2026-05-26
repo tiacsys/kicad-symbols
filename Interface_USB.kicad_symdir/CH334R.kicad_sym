@@ -42,7 +42,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.wch-ic.com/downloads/file/327.html"
+		(property "Datasheet" "https://www.wch-ic.com/download/file?id=327"
 			(at 0 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
