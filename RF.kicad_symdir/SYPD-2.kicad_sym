@@ -50,7 +50,7 @@
 				)
 			)
 		)
-		(property "Description" "Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167"
+		(property "Description" "Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Circuits TTT167"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
