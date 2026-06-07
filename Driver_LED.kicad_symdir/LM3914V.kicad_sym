@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-20"
+		(property "Footprint" "Package_LCC:PLCC-20_9.0x9.0mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,7 +72,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "PLCC*"
+		(property "ki_fp_filters" "*PLCC*P1.27mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
