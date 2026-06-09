@@ -52,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "Low Distortion Rail-to-Rail Output Op Amps with Shutdown, MSOP-8"
+		(property "Description" "Low Distortion Rail-to-Rail Output Op Amps, MSOP-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
