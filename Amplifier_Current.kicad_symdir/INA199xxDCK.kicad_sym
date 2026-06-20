@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 1.27 1.27 0)
+			(at 0 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf"
-			(at 3.81 3.81 0)
+			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70"
-			(at 0 0 0)
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -127,7 +127,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -145,7 +145,7 @@
 				(name "V+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -163,7 +163,7 @@
 				(name "+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -181,7 +181,7 @@
 				(name "-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)

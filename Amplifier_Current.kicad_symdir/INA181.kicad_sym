@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 1.27 1.27 0)
+			(at 0 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina181.pdf"
-			(at 3.81 3.81 0)
+			(at 0 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" "Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6"
-			(at 0 0 0)
+			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -127,7 +127,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -145,7 +145,7 @@
 				(name "+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -163,7 +163,7 @@
 				(name "-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -199,7 +199,7 @@
 				(name "V+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)

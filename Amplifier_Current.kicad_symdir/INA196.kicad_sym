@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 0 0 0)
+			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina193.pdf"
-			(at 0 0 0)
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -54,7 +54,7 @@
 			)
 		)
 		(property "Description" "Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -125,7 +125,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -143,7 +143,7 @@
 				(name "V+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -161,7 +161,7 @@
 				(name "+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -179,7 +179,7 @@
 				(name "-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
