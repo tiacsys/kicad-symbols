@@ -33,7 +33,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 			(at 3.81 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78,7 +78,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "WSON*EP*2x2mm*P0.5mm*"
+		(property "ki_fp_filters" "*WSON*EP*2x2mm*P0.5mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
