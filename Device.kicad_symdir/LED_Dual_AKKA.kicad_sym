@@ -221,7 +221,7 @@
 			)
 		)
 		(symbol "LED_Dual_AKKA_1_1"
-			(pin input line
+			(pin passive line
 				(at -7.62 2.54 0)
 				(length 3.048)
 				(name "A1"
@@ -239,7 +239,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 7.62 2.54 180)
 				(length 3.81)
 				(name "K1"
@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 3.81)
 				(name "K2"
@@ -275,7 +275,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 3.048)
 				(name "A2"
