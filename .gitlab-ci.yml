@@ -4,4 +4,4 @@
 # The goal is to have only one place where all the CI
 # related things are.
 include:
-  - remote: 'https://gitlab.com/kicad/libraries/kicad-libary-tools/-/raw/master/.gitlab-ci-symbols.yml'
+  - remote: 'https://gitlab.com/kicad/libraries/kicad-library-tools/-/raw/main/.gitlab-ci-symbols.yml'
