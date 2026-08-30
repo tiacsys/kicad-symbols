@@ -2,14 +2,14 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "Generic_Outline"
+	(symbol "Sticker"
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
+		(in_bom yes)
+		(on_board no)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
-			(at -5.08 7.62 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "Generic_Outline"
+		(property "Value" "Sticker"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,8 +50,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic outline for a module"
-			(at 0 0 0)
+		(property "Description" "Sticker that gets glued on after assembly, e.g. Serial-Number, QR-Code, ..."
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,24 +61,13 @@
 				)
 			)
 		)
-		(property "ki_keywords" "generic outline board module"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Generic_Outline_1_1"
+		(symbol "Sticker_0_1"
 			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
 				(stroke
-					(width 0)
-					(type solid)
+					(width 0.254)
+					(type default)
 				)
 				(fill
 					(type background)
