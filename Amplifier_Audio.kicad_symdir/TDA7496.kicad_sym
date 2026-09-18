@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/resource/en/datasheet/tda7297.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/tda7496sa.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
