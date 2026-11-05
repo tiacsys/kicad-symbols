@@ -61,7 +61,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller"
+		(property "ki_keywords" "ARM 32-bit Cortex-M0 M0 NXP microcontroller"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86,7 +86,7 @@
 		(symbol "LPC1224FBD64-101_0_1"
 			(rectangle
 				(start -15.24 43.18)
-				(end 15.24 -40.64)
+				(end 15.24 -43.18)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1070,7 +1070,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -43.18 90)
+				(at -2.54 -45.72 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1232,7 +1232,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -43.18 90)
+				(at 2.54 -45.72 90)
 				(length 2.54)
 				(name "VSSIO"
 					(effects
