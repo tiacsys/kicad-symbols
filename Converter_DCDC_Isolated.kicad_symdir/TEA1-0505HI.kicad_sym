@@ -9,25 +9,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.62 6.35 0)
+			(at -7.112 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TEA1-0505HI"
-			(at -2.54 6.35 0)
+			(at 1.27 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TEA1-xxxxHI_THT"
@@ -55,6 +53,17 @@
 		(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 4kVDC isolation, SIP-7"
 			(at 0 0 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.5" "Missing pins 3,4,6 do not physically exist on the product"
+			(at 0 -11.176 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
