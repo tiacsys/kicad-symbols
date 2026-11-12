@@ -30,7 +30,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm"
-			(at 1.905 -22.86 0)
+			(at 0 -36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf"
-			(at 3.175 -8.89 0)
+			(at 0 -39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "Description" "3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20"
-			(at 0 0 0)
+			(at 0 -34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -110,7 +110,31 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -12.7) (xy 3.81 -12.7) (xy 3.81 -11.43)
+					(xy -7.62 -12.7) (xy -5.08 -12.7) (xy -5.08 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 12.7) (xy -0.254 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 10.16) (xy -0.254 10.16)
 				)
 				(stroke
 					(width 0)
@@ -129,6 +153,18 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -12.7) (xy 0 -12.7) (xy 0 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(circle
@@ -153,18 +189,6 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy -2.54 -12.7) (xy -2.54 -11.43)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -1.27 12.7)
 				(radius 0.254)
@@ -174,6 +198,54 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 12.827) (xy 2.54 13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 10.287) (xy 2.54 11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 7.747) (xy 2.54 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 5.207) (xy 2.54 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(polyline
@@ -190,7 +262,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 3.81) (xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 12.7)
+					(xy 2.286 2.54) (xy -1.27 2.54) (xy -1.27 12.7)
 				)
 				(stroke
 					(width 0)
@@ -202,7 +274,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.27) (xy 2.54 0) (xy -2.54 0) (xy -2.54 10.16)
+					(xy 2.286 0) (xy -2.54 0) (xy -2.54 10.16)
 				)
 				(stroke
 					(width 0)
@@ -214,7 +286,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1.27) (xy 2.54 -2.54) (xy -5.08 -2.54) (xy -5.08 2.54)
+					(xy 2.286 -2.54) (xy -5.08 -2.54) (xy -5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -226,7 +298,55 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -3.81) (xy 2.54 -5.08) (xy -3.81 -5.08) (xy -3.81 0)
+					(xy 2.286 -5.08) (xy -3.81 -5.08) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 2.667) (xy 5.08 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0.127) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -2.413) (xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -4.953) (xy 5.08 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -240,7 +360,7 @@
 		(symbol "CBTL02043B_1_1"
 			(polyline
 				(pts
-					(xy -6.35 12.7) (xy 0 12.7) (xy 2.54 13.97)
+					(xy -6.35 2.54) (xy -5.08 2.54) (xy -5.08 7.62) (xy -0.254 7.62)
 				)
 				(stroke
 					(width 0)
@@ -252,31 +372,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 10.16) (xy 0 10.16) (xy 2.54 11.43)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 2.54) (xy -5.08 2.54) (xy -5.08 7.62) (xy 0 7.62) (xy 2.54 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 0) (xy -3.81 0) (xy -3.81 5.08) (xy 0 5.08) (xy 2.54 6.35)
+					(xy -6.35 0) (xy -3.81 0) (xy -3.81 5.08) (xy -0.254 5.08)
 				)
 				(stroke
 					(width 0)
@@ -287,7 +383,7 @@
 				)
 			)
 			(circle
-				(center -3.81 -10.16)
+				(center -5.08 -11.176)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -301,6 +397,17 @@
 				(pts
 					(xy -3.81 -10.16) (xy -6.35 -8.89) (xy -6.35 -11.43) (xy -3.81 -10.16)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.556 -10.16)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -376,6 +483,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0 -11.176)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 1.27 12.7) (xy 1.27 11.43)
@@ -426,19 +544,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 3.81) (xy 1.27 -6.35) (xy -2.54 -6.35) (xy -2.54 -10.16) (xy -3.81 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -10.16) (xy 3.81 -10.16) (xy 3.81 -5.08)
+					(xy 1.27 3.81) (xy 1.27 -6.35) (xy -2.54 -6.35) (xy -2.54 -10.16) (xy -3.302 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -449,8 +555,20 @@
 				)
 			)
 			(circle
-				(center 1.27 -10.16)
+				(center 1.524 -10.16)
 				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -10.16) (xy 3.81 -10.16) (xy 3.81 -5.08)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -635,24 +753,6 @@
 					(type none)
 				)
 			)
-			(pin power_in line
-				(at 0 -22.86 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -15.24 12.7 0)
 				(length 2.54)
@@ -797,43 +897,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -22.86 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 22.86 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -15.24 -10.16 0)
 				(length 2.54)
@@ -881,44 +944,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -22.86 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 22.86 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -980,29 +1005,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 22.86 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -22.86 90)
 				(length 2.54)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -1010,7 +1015,25 @@
 						)
 					)
 				)
-				(number "21"
+				(number "[1,10,15,21]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 22.86 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[11,16,20]"
 					(effects
 						(font
 							(size 1.27 1.27)
