@@ -417,7 +417,7 @@
 			(pin input line
 				(at 2.54 7.62 270)
 				(length 3.81)
-				(name "+FB2"
+				(name "+VS1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -436,7 +436,7 @@
 				(at 2.54 7.62 270)
 				(length 3.81)
 				(hide yes)
-				(name "+FB2"
+				(name "+VS1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -454,7 +454,7 @@
 			(pin input line
 				(at 2.54 -7.62 90)
 				(length 3.81)
-				(name "-FB2"
+				(name "-VS1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -473,7 +473,7 @@
 				(at 2.54 -7.62 90)
 				(length 3.81)
 				(hide yes)
-				(name "-FB2"
+				(name "-VS1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -511,7 +511,7 @@
 			(pin input line
 				(at 2.54 7.62 270)
 				(length 3.81)
-				(name "+FB2"
+				(name "+VS2"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -530,7 +530,7 @@
 				(at 2.54 7.62 270)
 				(length 3.81)
 				(hide yes)
-				(name "+FB2"
+				(name "+VS2"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -548,7 +548,7 @@
 			(pin input line
 				(at 2.54 -7.62 90)
 				(length 3.81)
-				(name "-FB2"
+				(name "-VS2"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -567,7 +567,7 @@
 				(at 2.54 -7.62 90)
 				(length 3.81)
 				(hide yes)
-				(name "-FB2"
+				(name "-VS2"
 					(effects
 						(font
 							(size 0.508 0.508)
